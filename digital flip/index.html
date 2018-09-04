@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Take Dicision</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/fliper.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Are You Not Able To Make A Decision | <span class="text text-info">Check Your Chance</span></h1>
+				</div>
+				<div class="col-lg-12">
+					<!-- blank -->
+					<div class="col-lg-4"></div>
+					<!-- coin -->
+					<div class="col-lg-4">
+						<div class="coinBox">
+							<div class="tail">
+								<img src="images/tail.png" height="200px" width="200px">
+							</div>
+							<div class="head">
+								<img src="images/head.png" height="200px" width="200px">
+							</div>
+						</div>
+					</div>
+					<!-- form Element -->
+					<div class="col-lg-4 text-left">
+						<font>
+							<p>
+								<select class="form-control" id="userchoice">
+									<option value="">select your choice</option>
+									<option value="head">head</option>
+									<option value="tail">tail</option>
+								</select>
+							</p>
+							<p>
+								<button class="btn btn-lg btn-primary" id="btnFlip" disabled>Flip It</button>
+							</p>
+						</font>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

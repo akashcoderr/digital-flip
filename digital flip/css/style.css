@@ -1,0 +1,43 @@
+@charset "utf-8";
+html,body{
+	width:  100%;
+	min-height: 100%;
+	padding: 0;
+	margin:0;
+	background: url(../images/background.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+
+#wrapper{
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+
+}
+
+.container{
+	padding: 50px 0;
+	text-align: center; 	
+}
+
+h1{
+	margin-bottom: 100px;
+}
+.head{
+	margin-top: -195px;
+}
+
+.flip img{
+	animation: flipIt 0.5s linear infinite;
+}
+.head img{
+	animation-delay: 0.25s;
+}
+@keyframes flipIt{
+	0%{width:0px;height: 200px; }
+	25%{width:200px;height: 200px; }
+	50%{width:0px; height: 200px;}
+	100%{width:0px; height: 200px;}
+}
